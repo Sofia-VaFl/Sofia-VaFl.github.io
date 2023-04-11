@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Sofía Vargas">
+    <meta name="description" content="Portafolio de desarrollo web de Sofía Vargas">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, GitHub">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Titulo -->
+    <title>Sofía Vargas | Desarrollo Web Front-End</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/Luna.png">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text&family=DM+Serif+Display&family=Montserrat:ital,wght@1,100&family=Open+Sans:wght@300&family=PT+Serif&family=Red+Hat+Display:ital,wght@1,300&family=Spectral:wght@200&display=swap" rel="stylesheet">" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/Luna.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Sofi2.jpg" alt="Foto de Sofía Vargas">
+        <h1>Hola, soy Sofía Vargas</h1>
+        <!--<h2>Actualmente estoy en el trayecto para ser ingeniera.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/coding-transparent.png" alt="Dos personas programando en HTML, CSS y C++">
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Sofía</h2>
+        <p class="seccion-texto">Estudio Ingeniería en Innovación y Desarollo en el Tec de Monterrey en Aguascalinetes. Mi meta es convertirme en una gran ingeniera y empresaria, optando por cambiar el mundo e impulsar a las mujeres. Me apasiona el mundo de la moda y he comenzado a involucrarme en el área. </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Construyo sitios web responsivos, modernos y minimalistas con diferentes tecnologías y frameworks de acuerdo a las tendencias.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">HTML</span>
+              <span class="badge text-bg-secondary">CSS</span>
+              <span class="badge text-bg-secondary">JavaScript</span>
+<!--              <span class="badge text-bg-primary">Bootstrap</span>-->
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Modelaje</p>
+            <p>He modelado para artistas de maquillaje y estoy creciendo mi instagram en el mismo ámbito y en lifestyle  <a href="https://www.instagram.com/_sofiavarg/?hl=es-la" target="_blank">@_sofiavarg</a>.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">Escribir</span>
+              <span class="badge text-bg-secondary">Editar</span>
+              <span class="badge text-bg-secondary">Blogs</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Soy estudiante de segundo semestre en la carrera de Ingeniería en Innovación y Desarrollo en el Tecnológico de Monterrey.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-secondary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-secondary">Frontend</span>
+              <span class="badge text-bg-secondary">GitHub</span>
+              <span class="badge text-bg-secondary">Empleabilidad</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/clonaciongoogle1.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clonación de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Sofia-VaFl/Clonacion-Google" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://fluffy-lebkuchen-157ecb.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/appmind.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Diseño de aplicación de Salud Mental</p>
+                  <a href="https://marvelapp.com/prototype/6f39924/screen/85644100" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <a href="https://github.com/Sofia-VaFl" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.instagram.com/reel/Cn8MQ8hAPfCl3ci03P4XWWm1KzPUsidr91zgDI0/?hl=es-la" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Video creativo o reel de un vlog modelando.
+            </li>
+          </a>
+          <a href="https://www.instagram.com/reel/CoN-c8BgRxwrYwiCaDekBQalusKiP5u52BzeqA0/?hl=es-la">
+            <li class="list-group-item">
+              Maquillaje por César Mushi
+            </li>
+          </a>
+          <a href="https://www.insidelvmh.com/prehome?provider=saml" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Curso que estoy acreditando para certificación en LVMH 
+            </li>
+          </a>
+          <a href="https://www.tesla.com/es_mx/about" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              El impacto de una gran empresa, Tesla.
+            </li>
+          </a>
+          <a href="https://careerfoundry.com/en/blog/ux-design/what-does-a-ux-designer-actually-do/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Qué es UX design? 
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis colegas...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/nancy.jpg" alt="Foto de Nancy">
+              <p class="testimonio-texto">Sofía Vargas demostró ser una estudiante muy proactiva y entusiasta durante toda su participación en el bootcamp de Tecnolochicas PRO. La recomiendo ampliamente.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nancy Salazar</p>
+                <p class="cargo">Instructora en Tecnolochicas</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Nora">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Ivanna</p>
+                <p class="cargo">Colega y estudiante en Ingeniería</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Colega</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y brindarte ideas innvovadoras con impacto social y ambiental. 
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:sofiavf57@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/Luna.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Diseñando, programando e innvovando para cambiar el mundo. </p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    
+        </a>
+        <a href="https://github.com/Sofia-VaFl" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/_sofiavarg/?hl=es-la" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:sofiavf57@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Sofía Vargas Flores (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
