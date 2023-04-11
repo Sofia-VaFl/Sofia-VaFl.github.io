@@ -44,6 +44,6 @@ Además, se incluyeron **Google Fonts** para personalizar la fuente y **Bootstra
 El texto de la página web está escrito en español, al igual que las clases y atributos personalizados. Las clases relacionadas con Bootstrap se incluyeron en inglés.
 
 ## Link para mi página web
-Visualiza mi página web:  [Sofía Vargas](Sofia-VaFl.github.io)
+Visualiza mi página web:  [Sofía Vargas](https://sofia-vafl.github.io/#)
 
 
